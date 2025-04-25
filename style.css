@@ -16,7 +16,9 @@
 /* start page */
 
 .startPage {
-  position: relative;
+
+  display: flex;
+  justify-content: space-between;
 
   background-color: #222222;
   
@@ -24,9 +26,11 @@
 
 .startPage__header {
   position: sticky;
+  top: 0;
 
   display: flex;
   
+  background-color: #222222;
 }
 
 .startPage__header li {
@@ -34,12 +38,10 @@
   display: inline;
 }
 
-.startPage__banner {
-  position: absolute;
-  top: 0;
-  right: 0;
+/* .startPage__banner {
+  
 
-}
+} */
 
 
 /* info page */
@@ -50,7 +52,27 @@
   background-color: #282829;
 }
 
+/* form page */
 
+.formPage {
+  margin: auto;
+  
+  background-color: #282829;
+}
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: #222222;
+}
+
+.footer__socNetsList li {
+  display: inline;
+}
 
 /* Common */
 
@@ -58,6 +80,10 @@
   color: #222222;
   background-color: #FFFFFF;
   text-transform: uppercase;
+}
+
+.orderButton::before {
+  content: "Order";
 }
 
 .logo {
