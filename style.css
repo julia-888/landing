@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Prata";
+  src: url("./fonts/Prata-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #FFFFFF;
+}
+
+
+/* start page */
+
+.startPage {
+  position: relative;
+
+  background-color: #222222;
+  
+}
+
+.startPage__header {
+  position: sticky;
+
+  display: flex;
+  
+}
+
+.startPage__header li {
+  font-style: italic;
+  display: inline;
+}
+
+.startPage__banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+
+/* info page */
+
+.infoPage {
+  display: flex;
+
+  background-color: #282829;
+}
+
+
+
+/* Common */
+
+.orderButton {
+  color: #222222;
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: Prata;
+}
+
+
+/* Properties */
+
+.--font-Prata {
+  font-family: Prata;
+}
+
+.--fullWidth {
+  width: 100%;
+}
